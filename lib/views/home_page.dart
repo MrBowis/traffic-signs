@@ -15,35 +15,6 @@ class _HomePageState extends State<HomePage> {
       _selectedIndex = index;
     });
     // Aquí puedes agregar navegación a diferentes páginas según el índice
-    switch (index) {
-      case 0:
-        // Home - ya estamos aquí
-        break;
-      case 1:
-        // Quiz
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Navegando a Quiz')),
-        );
-        break;
-      case 2:
-        // Cámara
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Navegando a Reconocimiento Visual')),
-        );
-        break;
-      case 3:
-        // Estudio
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Navegando a Estudio Guiado')),
-        );
-        break;
-      case 4:
-        // Desafío
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Navegando a Modo Desafío')),
-        );
-        break;
-    }
   }
 
   @override
@@ -134,24 +105,6 @@ class HomeContent extends StatelessWidget {
                             style: TextStyle(
                               color: Colors.white70,
                               fontSize: 16,
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          IconButton(
-                            onPressed: () {},
-                            icon: const Icon(
-                              Icons.person,
-                              color: Colors.white,
-                            ),
-                          ),
-                          IconButton(
-                            onPressed: () {},
-                            icon: const Icon(
-                              Icons.settings,
-                              color: Colors.white,
                             ),
                           ),
                         ],

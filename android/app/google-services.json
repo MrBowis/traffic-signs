@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589086067506",
+    "project_id": "senialesia",
+    "storage_bucket": "senialesia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589086067506:android:48a6bc5a426c46f316252b",
+        "android_client_info": {
+          "package_name": "com.example.pry_traffic_signs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxQjo3MdFTf7GP4pyVScOmtQIUCdbKWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589086067506:android:32a243f8bb69a84216252b",
+        "android_client_info": {
+          "package_name": "com.example.seniales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxQjo3MdFTf7GP4pyVScOmtQIUCdbKWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
