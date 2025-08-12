@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:pry_traffic_signs/controllers/auth_controller.dart';
+import 'package:pry_traffic_signs/controllers/quiz_controller.dart';
+import 'package:pry_traffic_signs/controllers/challenge_controller.dart';
 import 'package:pry_traffic_signs/views/main_navigation_widget.dart';
 import 'package:pry_traffic_signs/views/login_page.dart';
 import 'firebase_options.dart';
@@ -31,6 +33,8 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => AuthController()),
+        ChangeNotifierProvider(create: (context) => QuizController()),
+        ChangeNotifierProvider(create: (context) => ChallengeController()),
       ],
       child: MaterialApp(
         title: 'Señales de tráfico',

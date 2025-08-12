@@ -318,14 +318,14 @@ class _CameraPageState extends State<CameraPage>
                     ),
               SizedBox(height: 15),
               RoundedButton(
-                text: 'Take a photo',
+                text: 'Tomar una foto',
                 color: Colors.lightBlueAccent,
                 onPress: () {
                   getImageFromCamera();
                 },
               ),
               RoundedButton(
-                text: 'Choose from gallery',
+                text: 'Seleccionar de la galeria',
                 color: Colors.lightBlueAccent,
                 onPress: () {
                   getImageFromGallery();
@@ -333,7 +333,7 @@ class _CameraPageState extends State<CameraPage>
                 },
               ),
               RoundedButton(
-                text: 'Classify',
+                text: 'Clasificar',
                 color: Colors.blue,
                 onPress: () {
                   classifyImage();

@@ -4,7 +4,6 @@ import '../controllers/auth_controller.dart';
 import 'home_page.dart';
 import 'quiz_page.dart';
 import 'camera_page.dart';
-import 'study_page.dart';
 import 'challenge_page.dart';
 import 'my_profile.dart';
 
@@ -23,7 +22,6 @@ class _MainNavigationWidgetState extends State<MainNavigationWidget> {
     const HomeContent(), // Contenido de la home page sin Scaffold
     const QuizPage(),
     const CameraPage(),
-    const StudyPage(),
     const ChallengePage(),
   ];
 
@@ -56,8 +54,7 @@ class _MainNavigationWidgetState extends State<MainNavigationWidget> {
   final List<Color> _selectedIconColors = [
     Colors.blue, // Home - azul
     Colors.blue.shade700, // Quiz - azul oscuro
-    Colors.orange.shade700, // Cámara - naranja oscuro
-    Colors.green.shade700, // Estudio - verde oscuro
+    Colors.orange.shade700, // Cámara - naranja oscuro 
     Colors.purple.shade700, // Desafío - morado oscuro
   ];
 
@@ -154,10 +151,6 @@ class _MainNavigationWidgetState extends State<MainNavigationWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.camera_alt),
             label: 'Cámara',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.book),
-            label: 'Estudio',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.psychology),
