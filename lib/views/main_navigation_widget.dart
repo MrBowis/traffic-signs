@@ -28,7 +28,11 @@ class _MainNavigationWidgetState extends State<MainNavigationWidget> {
   ];
 
   final List<Widget> _drawerPages = [
-    const MyProfileView(), // Página de perfil
+    Consumer<AuthController>(
+      builder: (context, authController, child) {
+        return MyProfileContent(user: authController.currentUser);
+      },
+    ), // Contenido de perfil sin AppBar
   ];
 
   // Método para cambiar a vista del drawer
@@ -69,7 +73,7 @@ class _MainNavigationWidgetState extends State<MainNavigationWidget> {
         title: const Text('Mi Perfil'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
-          onPressed: () => _switchToBottomNavView(0), // Regresar al inicio
+          onPressed: () => _switchToBottomNavView(0),
         ),
       ) : null,
       drawer: Drawer(

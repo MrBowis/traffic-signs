@@ -22,10 +22,7 @@ class AuthController extends ChangeNotifier {
   // Inicializar autenticación de forma segura
   Future<void> _initializeAuth() async {
     try {
-      // Configurar Firebase Auth
-      await FirebaseAuth.instance.setSettings(
-        appVerificationDisabledForTesting: true,
-      );
+      print('Inicializando AuthController...');
       
       // Verificar estado de autenticación
       _checkAuthState();
@@ -41,8 +38,17 @@ class AuthController extends ChangeNotifier {
     _auth.authStateChanges().listen((User? user) {
       try {
         if (user != null) {
-          _currentUser = UserModel.fromFirebaseUser(user);
-          print('Usuario autenticado: ${user.email}');
+          print('Estado auth cambió - Usuario encontrado: ${user.email}');
+          
+          // Crear UserModel de forma más segura
+          _currentUser = UserModel(
+            uid: user.uid,
+            email: user.email ?? '',
+            displayName: user.displayName,
+            photoURL: user.photoURL,
+          );
+          
+          print('Usuario autenticado correctamente');
         } else {
           _currentUser = null;
           print('Usuario no autenticado');
@@ -68,28 +74,46 @@ class AuthController extends ChangeNotifier {
       _errorMessage = null;
       notifyListeners();
 
-      // Configurar Auth para evitar problemas de reCAPTCHA
-      await FirebaseAuth.instance.setSettings(
-        appVerificationDisabledForTesting: true,
-      );
+      print('Intentando login para: $email');
 
-      UserCredential userCredential = await _auth.signInWithEmailAndPassword(
+      // Usar signInWithEmailAndPassword de forma más segura
+      final UserCredential userCredential = await FirebaseAuth.instance
+          .signInWithEmailAndPassword(
         email: email.trim(),
         password: password,
       );
 
-      if (userCredential.user != null) {
-        _currentUser = UserModel.fromFirebaseUser(userCredential.user!);
+      // Verificar que el usuario existe y está verificado
+      final User? user = userCredential.user;
+      if (user != null) {
+        print('Login exitoso para usuario: ${user.uid}');
+        
+        // Crear UserModel de forma segura
+        try {
+          _currentUser = UserModel.fromFirebaseUser(user);
+          print('UserModel creado correctamente');
+        } catch (e) {
+          print('Error creando UserModel: $e');
+          _currentUser = UserModel(
+            uid: user.uid,
+            email: user.email ?? email,
+            displayName: user.displayName,
+            photoURL: user.photoURL,
+          );
+        }
+        
         _isLoading = false;
         notifyListeners();
         return true;
+      } else {
+        throw Exception('Usuario nulo después del login');
       }
     } on FirebaseAuthException catch (e) {
       print('FirebaseAuthException en login: ${e.code} - ${e.message}');
       _errorMessage = _getErrorMessage(e.code);
     } catch (e) {
       print('General Exception en login: ${e.toString()}');
-      _errorMessage = 'Error inesperado: ${e.toString()}';
+      _errorMessage = 'Error de conexión. Verifica tu internet.';
     }
 
     _isLoading = false;
