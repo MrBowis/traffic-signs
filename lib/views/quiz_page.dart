@@ -37,55 +37,56 @@ class QuizPage extends StatelessWidget {
   }
 
   Widget _buildWelcomeScreen(BuildContext context, QuizController quizController) {
-    return Column(
-      children: [
-        // Header personalizado
-        Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Colors.blue, Colors.purple],
-              begin: Alignment.centerLeft,
-              end: Alignment.centerRight,
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          // Header personalizado
+          Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: [Colors.blue, Colors.purple],
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+              ),
             ),
-          ),
-          child: SafeArea(
-            child: Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: Row(
-                children: [
-                  IconButton(
-                    onPressed: () {
-                      Scaffold.of(context).openDrawer();
-                    },
-                    icon: const Icon(
-                      Icons.menu,
-                      color: Colors.white,
-                    ),
-                  ),
-                  const Expanded(
-                    child: Text(
-                      'Quiz de Señales de Tránsito',
-                      style: TextStyle(
+            child: SafeArea(
+              child: Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: () {
+                        Scaffold.of(context).openDrawer();
+                      },
+                      icon: const Icon(
+                        Icons.menu,
                         color: Colors.white,
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
                       ),
-                      textAlign: TextAlign.center,
                     ),
-                  ),
-                  const SizedBox(width: 48),
-                ],
+                    const Expanded(
+                      child: Text(
+                        'Quiz de Señales de Tránsito',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    const SizedBox(width: 48),
+                  ],
+                ),
               ),
             ),
           ),
-        ),
-        // Contenido principal
-        Expanded(
-          child: Padding(
+          // Contenido principal
+          Padding(
             padding: const EdgeInsets.all(20.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                const SizedBox(height: 40),
                 const Icon(
                   Icons.quiz,
                   size: 120,
@@ -157,11 +158,12 @@ class QuizPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 40),
               ],
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
@@ -227,9 +229,9 @@ class QuizPage extends StatelessWidget {
             ),
           ),
         ),
-        // Contenido de la pregunta
+        // Contenido de la pregunta con scroll
         Expanded(
-          child: Padding(
+          child: SingleChildScrollView(
             padding: const EdgeInsets.all(16.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -256,71 +258,72 @@ class QuizPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
                 // Opciones
-                Expanded(
-                  child: ListView.builder(
-                    itemCount: question.options.length,
-                    itemBuilder: (context, index) {
-                      final isSelected = selectedAnswer == index;
-                      return Container(
-                        margin: const EdgeInsets.only(bottom: 12),
-                        child: Card(
-                          elevation: isSelected ? 4 : 1,
-                          child: InkWell(
-                            onTap: () => quizController.selectAnswer(index),
-                            borderRadius: BorderRadius.circular(8),
-                            child: Container(
-                              padding: const EdgeInsets.all(16),
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(8),
-                                color: isSelected 
-                                    ? Colors.blue.shade50 
-                                    : null,
-                                border: isSelected 
-                                    ? Border.all(color: Colors.blue, width: 2)
-                                    : null,
-                              ),
-                              child: Row(
-                                children: [
-                                  CircleAvatar(
-                                    backgroundColor: isSelected 
-                                        ? Colors.blue 
-                                        : Colors.grey.shade300,
-                                    child: Text(
-                                      String.fromCharCode(65 + index), // A, B, C, D
-                                      style: TextStyle(
-                                        color: isSelected 
-                                            ? Colors.white 
-                                            : Colors.grey.shade600,
-                                        fontWeight: FontWeight.bold,
-                                      ),
+                ListView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: question.options.length,
+                  itemBuilder: (context, index) {
+                    final isSelected = selectedAnswer == index;
+                    return Container(
+                      margin: const EdgeInsets.only(bottom: 12),
+                      child: Card(
+                        elevation: isSelected ? 4 : 1,
+                        child: InkWell(
+                          onTap: () => quizController.selectAnswer(index),
+                          borderRadius: BorderRadius.circular(8),
+                          child: Container(
+                            padding: const EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(8),
+                              color: isSelected 
+                                  ? Colors.blue.shade50 
+                                  : null,
+                              border: isSelected 
+                                  ? Border.all(color: Colors.blue, width: 2)
+                                  : null,
+                            ),
+                            child: Row(
+                              children: [
+                                CircleAvatar(
+                                  backgroundColor: isSelected 
+                                      ? Colors.blue 
+                                      : Colors.grey.shade300,
+                                  child: Text(
+                                    String.fromCharCode(65 + index), // A, B, C, D
+                                    style: TextStyle(
+                                      color: isSelected 
+                                          ? Colors.white 
+                                          : Colors.grey.shade600,
+                                      fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  const SizedBox(width: 16),
-                                  Expanded(
-                                    child: Text(
-                                      question.options[index],
-                                      style: TextStyle(
-                                        fontSize: 16,
-                                        color: isSelected 
-                                            ? Colors.blue.shade800 
-                                            : null,
-                                      ),
+                                ),
+                                const SizedBox(width: 16),
+                                Expanded(
+                                  child: Text(
+                                    question.options[index],
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: isSelected 
+                                          ? Colors.blue.shade800 
+                                          : null,
                                     ),
                                   ),
-                                  if (isSelected)
-                                    const Icon(
-                                      Icons.check_circle,
-                                      color: Colors.blue,
-                                    ),
-                                ],
-                              ),
+                                ),
+                                if (isSelected)
+                                  const Icon(
+                                    Icons.check_circle,
+                                    color: Colors.blue,
+                                  ),
+                              ],
                             ),
                           ),
                         ),
-                      );
-                    },
-                  ),
+                      ),
+                    );
+                  },
                 ),
+                const SizedBox(height: 24),
                 // Botones de navegación
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -354,6 +357,7 @@ class QuizPage extends StatelessWidget {
                       ),
                   ],
                 ),
+                const SizedBox(height: 20),
               ],
             ),
           ),

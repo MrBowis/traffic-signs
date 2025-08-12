@@ -79,9 +79,9 @@ class ChallengePage extends StatelessWidget {
             ),
           ),
         ),
-        // Contenido principal
+        // Contenido principal con scroll
         Expanded(
-          child: Padding(
+          child: SingleChildScrollView(
             padding: const EdgeInsets.all(20.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -154,6 +154,7 @@ class ChallengePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 20),
               ],
             ),
           ),
@@ -269,9 +270,9 @@ class ChallengePage extends StatelessWidget {
             ),
           ),
         ),
-        // Contenido de la pregunta
+        // Contenido de la pregunta con scroll
         Expanded(
-          child: Padding(
+          child: SingleChildScrollView(
             padding: const EdgeInsets.all(16.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -298,80 +299,81 @@ class ChallengePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
                 // Opciones
-                Expanded(
-                  child: ListView.builder(
-                    itemCount: question.options.length,
-                    itemBuilder: (context, index) {
-                      final isSelected = selectedAnswer == index;
-                      final isCorrect = index == question.answerIndex;
-                      
-                      Color? backgroundColor;
-                      Color? borderColor;
-                      
-                      if (hasAnswered) {
-                        if (isSelected) {
-                          backgroundColor = isCorrect ? Colors.green.shade50 : Colors.red.shade50;
-                          borderColor = isCorrect ? Colors.green : Colors.red;
-                        } else if (isCorrect) {
-                          backgroundColor = Colors.green.shade50;
-                          borderColor = Colors.green;
-                        }
-                      } else if (isSelected) {
-                        backgroundColor = Colors.purple.shade50;
-                        borderColor = Colors.purple;
+                ListView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: question.options.length,
+                  itemBuilder: (context, index) {
+                    final isSelected = selectedAnswer == index;
+                    final isCorrect = index == question.answerIndex;
+                    
+                    Color? backgroundColor;
+                    Color? borderColor;
+                    
+                    if (hasAnswered) {
+                      if (isSelected) {
+                        backgroundColor = isCorrect ? Colors.green.shade50 : Colors.red.shade50;
+                        borderColor = isCorrect ? Colors.green : Colors.red;
+                      } else if (isCorrect) {
+                        backgroundColor = Colors.green.shade50;
+                        borderColor = Colors.green;
                       }
+                    } else if (isSelected) {
+                      backgroundColor = Colors.purple.shade50;
+                      borderColor = Colors.purple;
+                    }
 
-                      return Container(
-                        margin: const EdgeInsets.only(bottom: 12),
-                        child: Card(
-                          elevation: isSelected ? 4 : 1,
-                          child: InkWell(
-                            onTap: hasAnswered ? null : () => challengeController.selectAnswer(index),
-                            borderRadius: BorderRadius.circular(8),
-                            child: Container(
-                              padding: const EdgeInsets.all(16),
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(8),
-                                color: backgroundColor,
-                                border: borderColor != null
-                                    ? Border.all(color: borderColor, width: 2)
-                                    : null,
-                              ),
-                              child: Row(
-                                children: [
-                                  CircleAvatar(
-                                    backgroundColor: borderColor ?? Colors.grey.shade300,
-                                    child: Text(
-                                      String.fromCharCode(65 + index), // A, B, C, D
-                                      style: TextStyle(
-                                        color: borderColor != null ? Colors.white : Colors.grey.shade600,
-                                        fontWeight: FontWeight.bold,
-                                      ),
+                    return Container(
+                      margin: const EdgeInsets.only(bottom: 12),
+                      child: Card(
+                        elevation: isSelected ? 4 : 1,
+                        child: InkWell(
+                          onTap: hasAnswered ? null : () => challengeController.selectAnswer(index),
+                          borderRadius: BorderRadius.circular(8),
+                          child: Container(
+                            padding: const EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(8),
+                              color: backgroundColor,
+                              border: borderColor != null
+                                  ? Border.all(color: borderColor, width: 2)
+                                  : null,
+                            ),
+                            child: Row(
+                              children: [
+                                CircleAvatar(
+                                  backgroundColor: borderColor ?? Colors.grey.shade300,
+                                  child: Text(
+                                    String.fromCharCode(65 + index), // A, B, C, D
+                                    style: TextStyle(
+                                      color: borderColor != null ? Colors.white : Colors.grey.shade600,
+                                      fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  const SizedBox(width: 16),
-                                  Expanded(
-                                    child: Text(
-                                      question.options[index],
-                                      style: TextStyle(
-                                        fontSize: 16,
-                                        color: borderColor,
-                                      ),
+                                ),
+                                const SizedBox(width: 16),
+                                Expanded(
+                                  child: Text(
+                                    question.options[index],
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: borderColor,
                                     ),
                                   ),
-                                  if (hasAnswered && isCorrect)
-                                    const Icon(Icons.check_circle, color: Colors.green),
-                                  if (hasAnswered && isSelected && !isCorrect)
-                                    const Icon(Icons.cancel, color: Colors.red),
-                                ],
-                              ),
+                                ),
+                                if (hasAnswered && isCorrect)
+                                  const Icon(Icons.check_circle, color: Colors.green),
+                                if (hasAnswered && isSelected && !isCorrect)
+                                  const Icon(Icons.cancel, color: Colors.red),
+                              ],
                             ),
                           ),
                         ),
-                      );
-                    },
-                  ),
+                      ),
+                    );
+                  },
                 ),
+                const SizedBox(height: 20),
               ],
             ),
           ),
@@ -429,9 +431,9 @@ class ChallengePage extends StatelessWidget {
             ),
           ),
         ),
-        // Estadísticas del desafío
+        // Estadísticas del desafío con scroll
         Expanded(
-          child: Padding(
+          child: SingleChildScrollView(
             padding: const EdgeInsets.all(20.0),
             child: Column(
               children: [
@@ -492,7 +494,7 @@ class ChallengePage extends StatelessWidget {
                   ),
                 ),
                 
-                const Spacer(),
+                const SizedBox(height: 30),
                 
                 // Botón para reiniciar
                 SizedBox(
@@ -509,6 +511,7 @@ class ChallengePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 20),
               ],
             ),
           ),
