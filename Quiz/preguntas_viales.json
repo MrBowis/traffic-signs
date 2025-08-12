@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal?",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 1
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón?",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 2
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada?",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 3
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística?",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 4
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 5)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 5
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 6)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 6
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 7)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 7
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 8)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 8
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 9)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 9
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 10)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 10
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 11)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 11
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 12)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 12
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 13)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 13
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 14)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 14
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 15)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 15
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 16)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 16
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 17)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 17
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 18)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 18
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 19)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 19
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 20)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 20
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 21)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 21
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 22)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 22
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 23)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 23
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 24)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 24
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 25)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 25
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 26)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 26
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 27)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 27
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 28)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 28
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 29)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 29
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 30)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 30
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 31)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 31
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 32)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 32
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 33)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 33
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 34)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 34
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 35)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 35
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 36)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 36
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 37)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 37
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 38)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 38
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 39)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 39
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 40)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 40
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 41)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 41
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 42)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 42
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 43)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 43
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 44)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 44
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 45)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 45
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 46)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 46
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 47)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 47
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 48)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 48
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 49)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 49
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 50)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 50
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 51)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 51
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 52)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 52
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 53)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 53
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 54)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 54
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 55)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 55
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 56)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 56
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 57)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 57
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 58)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 58
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 59)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 59
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 60)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 60
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 61)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 61
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 62)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 62
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 63)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 63
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 64)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 64
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 65)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 65
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 66)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 66
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 67)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 67
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 68)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 68
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 69)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 69
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 70)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 70
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 71)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 71
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 72)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 72
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 73)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 73
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 74)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 74
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 75)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 75
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 76)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 76
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 77)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 77
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 78)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 78
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 79)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 79
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 80)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 80
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 81)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 81
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 82)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 82
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 83)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 83
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 84)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 84
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 85)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 85
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 86)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 86
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 87)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 87
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 88)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 88
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 89)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 89
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 90)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 90
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 91)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 91
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 92)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 92
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 93)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 93
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 94)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 94
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 95)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 95
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 96)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 96
+  },
+  {
+    "question": "¿Qué indica una señal de color rojo con forma octagonal? (variante 97)",
+    "options": [
+      "Ceda el paso",
+      "Alto",
+      "Prohibido girar",
+      "No estacionar"
+    ],
+    "answer_index": 1,
+    "category": "Señales reglamentarias",
+    "id": 97
+  },
+  {
+    "question": "¿Qué significa una señal amarilla en forma de rombo con un dibujo de un peatón? (variante 98)",
+    "options": [
+      "Cruce de peatones",
+      "Zona escolar",
+      "Velocidad máxima",
+      "Obras en la vía"
+    ],
+    "answer_index": 0,
+    "category": "Señales preventivas",
+    "id": 98
+  },
+  {
+    "question": "¿Qué indica una línea amarilla continua en el borde de la calzada? (variante 99)",
+    "options": [
+      "Prohibido estacionar",
+      "Carril exclusivo",
+      "Zona escolar",
+      "Adelantamiento permitido"
+    ],
+    "answer_index": 0,
+    "category": "Normas de circulación",
+    "id": 99
+  },
+  {
+    "question": "¿Qué color tienen las señales que brindan información turística? (variante 100)",
+    "options": [
+      "Azul",
+      "Rojo",
+      "Verde",
+      "Marrón"
+    ],
+    "answer_index": 3,
+    "category": "Señales informativas",
+    "id": 100
+  }
+]
